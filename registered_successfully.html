@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registered Successfully</title>
+  </head>
+  <body>
+    <p>You have registered successfully: </p>
+
+    <script>$('p').append(location.search.split("first_name=")[1])
+    </script>
+    <!-- the name info appeared in the web address and query parameter ie. ?firt_name=MIrella, look in console for where first_name appears and it is under location.search.  $('p').append(location.search)
+  location.search.split("first_name=")[1] will add first-name and remove the ? which is what you get [? ,first_name]-->
+  <!-- query parrameters: ?afterquestionmark -->
+  <script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+   </body>
+</html>

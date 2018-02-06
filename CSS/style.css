@@ -1,0 +1,287 @@
+/* * Addresses margins handled incorrectly in IE6/7.
+*/
+
+body {
+   margin: 0;
+}
+
+/* * Corrects list images handled incorrectly in IE7.
+*/ 
+
+nav ul,
+nav ol {
+   list-style: none;
+   list-style-image: none;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+/* HEADER STYLES */
+
+.logo{
+  height: 40px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header{
+  margin-top: 20px;
+}
+p{
+  font-size: .75rem;
+  color: #5d5e5c;
+
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #d6d9db;
+}
+nav{
+  float: right;
+  height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+li{
+  display: inline;
+  padding:0 10px;
+  width: 40px;
+}
+
+.main_nav a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#4d4d4C;
+  padding-right: 10px;
+  padding-left: 10px
+  width: 40px;
+}
+a{
+  color: #4d4d4C;
+}
+.main_nav a:hover{
+  color: #b5b7b3;
+  /* not working// */
+}
+
+a:visited{
+  color: #52667C;
+}
+
+.banner{
+  background-image: url('../IMAGES/Slider_1280x400px_MST.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top:20px;
+}
+
+/* Heading styles */
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5 rems;
+  color:#52667C;
+  letter-spacing: .1em;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.25 rems;
+  color:#52667C;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1 rems;
+  color:#52667C;
+}
+h3, .main_nav{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1 rems;
+  color:#52667C;
+}
+h4, h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: .75 rems;
+  color:#52667C;
+  margin-bottom: 0;
+}
+
+/*  MAIN SECTION STYLES*/
+
+.background_main{
+  width: auto;
+  color: #52267;
+  height: auto;
+  background: #c0dde2; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #ffff , #c0dde2); /* Standard syntax (must be last) */
+}
+.main_title{
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.main_title a:hover{
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #8b999e;
+}
+
+.portfolio_sections{
+  text-align: center;
+  flex-flow: row | wrap; /*is this correct???*/
+}
+
+.portfolio_sections div {
+  vertical-align: top;
+}
+
+.corp_section{
+  width: 226px;
+  height: 221px;
+  display: inline-block;
+  background-image: url("../IMAGES/NGS_About Us_226x221.jpg");
+  position: relative;
+  margin-top: 10px;
+}
+.educ_section{
+  width: 226px;
+  height: 221px;
+  display: inline-block;
+  background-image: url("../IMAGES/WAI_thumbnail_226x221px.jpg");
+  position: relative;
+  margin-top: 10px;
+}
+
+.ad_section{
+  width: 226px;
+  height: 221px;
+  display: inline-block;
+  background-image: url("../IMAGES/OA AD_thumbnail_226x221.jpg");
+  position: relative;
+  margin-top: 10px;
+}
+
+.pub_section{
+  width: 226px;
+  height: 221px;
+  display: inline-block;
+  background-image: url("../IMAGES/WT_thumbnail_226x221.jpg");
+  position: relative;
+  margin-top: 10px;
+}
+.background_corp{
+  position: absolute;
+  background-color: #eaeaea; /*#c4c4c0;*/
+  bottom: 0;
+  width: 226px;
+  height: 40px;
+  opacity: .9;
+}
+.background_corp:hover{
+  background-color: #82827f;
+}
+.background_edu{
+  position: absolute;
+  background-color: #eaeaea; /*#c4c4c0;*/
+  bottom: 0;
+  width: 226px;
+  height: 40px;
+  opacity: .9;
+}
+.background_edu:hover{
+  background-color: #82827f;
+}
+.background_ad{
+  position: absolute;
+  background-color: #eaeaea; /*#c4c4c0;*/
+  bottom: 0;
+  width: 226px;
+  height: 40px;
+  opacity: .9;
+}
+.background_ad:hover{
+  background-color: #82827f;
+}
+.background_pub{
+  position: absolute;
+  background-color: #eaeaea; /*#c4c4c0;*/
+  bottom: 0;
+  width: 226px;
+  height: 40px;
+  opacity: .9;
+}
+.background_pub:hover{
+  background-color: #82827f;
+}
+
+.section_title{
+  color: #cfd2d3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .75rem;
+}
+.section_title a:hover{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #eaeaea;
+}
+
+/*  MAIN CONTACT SECTION*/
+.contact a:hover{
+  color: #eaeaea;
+}
+
+h5.contact{
+  width: 130px;
+  font-size: .65rem;
+  border-radius: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+footer{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: .75em;
+  text-align: left;
+  margin-left: 20px;
+  color: #52667C;
+}
+
+/* Misellaneous font styles */
+.italic{
+  font-style: italic;
+}
+.center{
+  text-align: center;
+  width: 100%;
+  color: #8b999e;
+}
